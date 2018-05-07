@@ -1,0 +1,80 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Ubuntu;
+}
+
+#content {
+	text-align: center;
+	padding-top: 20%;
+}
+
+#content h1 {
+	font-style: italic;
+	font-size: 35px;
+	font-weight: 800;
+	color: white;
+	letter-spacing: -4px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#title-span {
+	font-style: italic;
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-family: cursive;
+	font-style: none;
+	font-size: 30px;
+	color: white;
+	text-shadow: none;
+	font-weight: 200;
+}
+
+
+#content h2 {
+	font-style: italic;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	font-weight: 800;
+}
+
+#content h3 {
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	text-shadow: 0px 3px 2px rgba(0,0,0,0.3);
+}
+
+#content h6 {
+	font-family: serif;
+	font-style: italic;
+	font-size: 15px;
+	color: white;
+	text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	letter-spacing: 2px;
+}
+
+hr {
+	width: 650px;
+	max-width: 95%;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid white;
+}
+
+button {
+	box-shadow: 0px 3px 2px rgba(0,0,0,0.1);
+
+}

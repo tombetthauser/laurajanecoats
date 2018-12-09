@@ -1,0 +1,19 @@
+#invitation {
+	display: block;
+	margin: 2% auto 5%;
+	width: 750px;
+	max-width: 90%;
+}
+
+#memorium {
+	display: block;
+	background: white;
+	padding: 15px;
+	margin: 2% auto 10%;
+	width: 750px;
+	max-width: 90%;
+}
+
+#memorium p {
+	font-size: .8em;
+}

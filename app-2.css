@@ -17,3 +17,13 @@
 #memorium p {
 	font-size: .8em;
 }
+
+body {
+	background: url(background07.jpg);
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Ubuntu;
+
+}

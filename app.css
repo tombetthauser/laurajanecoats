@@ -119,6 +119,15 @@ a {
   font-size: 15px;
 }
 
+#signature {
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 50px;
+  width: 55%;
+  max-width: 225px;
+
+}
+
 #container-02 {
   width: 85%; 
   max-width: 450px;  
@@ -163,6 +172,7 @@ a {
   width: 22.5em;
   max-width: 70%;
   margin-bottom: 1.5em;
+  padding: 12.5% 0 0;
 }
 
 #img-02 {

@@ -7,11 +7,32 @@ body {
   font-weight: 300;
   color: #444;
 
-
   background: url(background07.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+button {
+  color: white;
+  background-color: #a2a27f;
+  border: none;
+  height: 25px;
+  padding: 3px auto;
+  width: 25%;
+  min-width: 150px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 1;
+  transition: .1s;
+}
+
+button:hover {
+  opacity: .95;
+  transition: .1s;
+  cursor: pointer;
 }
 
 a {
@@ -51,17 +72,17 @@ a {
   font-family: cursive;
 }*/
 
-#container-01 { 
+.container-01 { 
   width: 90%; 
   max-width: 650px;  
-  margin: 1.5em auto; 
+  margin: 1.5em auto 40px; 
   background-color: white;
   text-align: center;
   border-radius: 1vw;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
-#container-01 h1 {
+.container-01 h1 {
   color: #444;
   font-family: cursive;
   font-weight: 100;
@@ -70,7 +91,7 @@ a {
   margin-bottom: 0;
 }
 
-#container-01 h2 {
+.container-01 h2 {
   color: #444;
   font-family: cursive;
   font-weight: 100;
@@ -78,6 +99,23 @@ a {
   font-size: 20px;
   margin-top: 0;
   line-height: 4vw;
+}
+
+.container-01 h3 {
+  color: #444;
+  font-family: cursive;
+  font-weight: 100;
+  letter-spacing: .25vw;
+  font-size: 17.5px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.container-01 h4 {
+  color: #444;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 #container-02 {
